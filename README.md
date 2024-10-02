@@ -16,9 +16,13 @@ The project leverages several AWS services, including S3 for data storage, SageM
   5.	Deployment: The trained model is saved in a pickle file and uploaded to the S3 bucket for future use.
 
 **First Visualization**
-•	X-Axis (Date): The same time period as the first chart, but this time without segmentation by market trend.
-•	Y-Axis (Sum of Sales): Displays the total sales value, but in a more general view.
-•	**Insight**: This visualization provides a cleaner, overall trend of sales without the market trend context. You can observe the consistency or variance in sales over time but miss the deeper insight of how sales align with the market trend. The sharp fluctuations in sales values are more prominent, showing a high degree of variability day-to-day.
+•X-Axis (Date): The same time period as the first chart, but this time without segmentation by market trend.
+
+•Y-Axis (Sum of Sales): Displays the total sales value, but in a more general view.
+
+•**Insight**: This visualization provides a cleaner, overall trend of sales without the market trend context. 
+You can observe the consistency or variance in sales over time but miss the deeper insight of how sales align with the market trend.
+The sharp fluctuations in sales values are more prominent, showing a high degree of variability day-to-day.
 
 
 
@@ -30,10 +34,15 @@ Results (via QuickSight for Visualized Chart of the database insights from the a
 
 
 **Second  Visualization** (Sum of Sales by Date and Market Trend):
-	•	X-Axis (Date): Represents the time period (from January 2023 to July 2023).
-	•	Y-Axis (Sum of Sales): Displays the total sales value.
-	•	**Market Trend as Color**: The three market trends (positive, neutral, negative) are differentiated by distinct colors, making it easier to observe how each trend correlates with sales volume. For example, there may be fluctuations in sales that correlate with negative trends and higher peaks with positive trends.
-	•	**Insight**: This visualization is effective for understanding how market sentiment (positive, neutral, or negative) impacts the sales over time. It shows that positive market trends generally align with higher sales, while negative trends correlate with lower sales, although both have fluctuations.
+
+•X-Axis (Date): Represents the time period (from January 2023 to July 2023).
+
+•Y-Axis (Sum of Sales): Displays the total sales value.
+
+•**Market Trend as Color**: The three market trends (positive, neutral, negative) are differentiated by distinct colors, making it easier to observe how each trend correlates with sales volume. For example, there may be fluctuations in sales that correlate with negative trends and higher peaks with positive trends.
+
+
+•**Insight**: This visualization is effective for understanding how market sentiment (positive, neutral, or negative) impacts the sales over time. It shows that positive market trends generally align with higher sales, while negative trends correlate with lower sales, although both have fluctuations.
 
 
 
