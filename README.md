@@ -13,7 +13,7 @@ The project leverages several AWS services, including S3 for data storage, SageM
   2.	Data Processing: Data is cleaned, transformed, and encoded using Python libraries such as pandas and scikit-learn.
   3.	Model Development: A Linear Regression model is used for demand forecasting.
   4.	Visualization: Data insights are visualized using AWS QuickSight, enabling users to create interactive charts and reports.
-  5.	Deployment: The trained model is saved in a pickle file and uploaded to the S3 bucket for future use.
+  5.	Deployment: The trained model is saved in a pickle file and uploaded to the S3 bucket for future use. Applied linear regression models to forecast sales and automated the model training and deployment pipeline with Sagemaker
 
 **First Visualization**
 •X-Axis (Date): The same time period as the first chart, but this time without segmentation by market trend.
